@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Summary - Log de Decisões</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📋 Meeting Summary - Log Rastreável de Decisões</h1>
+            <p class="subtitle">Visualize e filtre decisões, responsáveis e próximos passos das suas reuniões</p>
+        </header>
+        
+        <div class="filters">
+            <div class="filter-group">
+                <label for="filterParticipant">Filtrar por Participante:</label>
+                <input type="text" id="filterParticipant" placeholder="Digite o nome do participante">
+            </div>
+            <div class="filter-group">
+                <label for="filterDate">Filtrar por Data:</label>
+                <input type="date" id="filterDate">
+            </div>
+            <div class="filter-group">
+                <label for="filterProject">Filtrar por Projeto:</label>
+                <input type="text" id="filterProject" placeholder="Digite o nome do projeto">
+            </div>
+            <button id="clearFilters" class="btn-clear">Limpar Filtros</button>
+        </div>
+
+        <div class="summary-cards" id="summaryCards">
+            <!-- Summary cards will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

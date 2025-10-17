@@ -1,0 +1,3 @@
+Text file: skprompt.txt
+Latest content with line numbers:
+1	You are an AI assistant that helps people find information.
